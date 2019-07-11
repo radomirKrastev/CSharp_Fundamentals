@@ -23,13 +23,10 @@
                 courseData = Console.ReadLine().Split(" : ").ToList();
             }
 
-
             foreach (var kvp in courseStudentInfo.OrderByDescending(x=> x.Value.Count))
             {
                 Console.WriteLine($"{kvp.Key}: {kvp.Value.Count}");
-                
-                    Console.WriteLine("-- "+string.Join(Environment.NewLine+"-- ", kvp.Value.OrderBy(x => x)));
-                
+                Console.WriteLine("-- "+string.Join(Environment.NewLine+"-- ", kvp.Value.OrderBy(x => x)));                
             }
         }
     }
