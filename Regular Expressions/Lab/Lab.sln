@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchFullName", "MatchFullName\MatchFullName.csproj", "{034FB0D2-EFB7-49D5-9AEE-E830691DDFAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchPhoneNumber", "MatchPhoneNumber\MatchPhoneNumber.csproj", "{2A9815D2-0611-4ECF-8717-2E33A80321C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchPhoneNumber", "MatchPhoneNumber\MatchPhoneNumber.csproj", "{2A9815D2-0611-4ECF-8717-2E33A80321C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchDates", "MatchDates\MatchDates.csproj", "{116FDC7C-C87A-454F-AE11-8242E817C407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2A9815D2-0611-4ECF-8717-2E33A80321C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A9815D2-0611-4ECF-8717-2E33A80321C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A9815D2-0611-4ECF-8717-2E33A80321C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116FDC7C-C87A-454F-AE11-8242E817C407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116FDC7C-C87A-454F-AE11-8242E817C407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116FDC7C-C87A-454F-AE11-8242E817C407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116FDC7C-C87A-454F-AE11-8242E817C407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
