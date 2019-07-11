@@ -46,7 +46,6 @@
                         numbers[i] = leftover;
                     }
                 }
-
             }
 
             if (numbers.Sum() == 0||numbers[0]==0)

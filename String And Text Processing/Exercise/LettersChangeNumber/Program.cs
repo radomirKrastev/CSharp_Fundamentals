@@ -8,7 +8,6 @@
         public static void Main()
         {
             var strings = Console.ReadLine().Split(new char[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-
             var letters = new Dictionary<char, int>();
             var counter = 1;
 

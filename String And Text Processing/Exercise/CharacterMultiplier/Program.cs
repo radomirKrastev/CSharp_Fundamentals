@@ -42,9 +42,9 @@
 
                         break;
                     }
+
                     result += (int)stringOne[i] * (int)stringTwo[i];
                 }
-
             }
 
             else
@@ -55,8 +55,7 @@
                 }
             }
 
-            Console.WriteLine(result);
-               
+            Console.WriteLine(result);               
         }
     }
 }
