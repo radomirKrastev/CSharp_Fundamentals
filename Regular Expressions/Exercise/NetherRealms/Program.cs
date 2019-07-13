@@ -9,11 +9,12 @@
         public static void Main()
         {
             var demons = Console.ReadLine().Split(new char[] { ',', ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-            var healthInvalidSymbols = @"[\/\d+\-*\/.]";
             var demonBook = new Dictionary<string, string>();
 
             foreach (var demon in demons)
             {
+
+                var healthInvalidSymbols = @"[\/\d+\-*\/.]";
                 var health = Regex.Replace(demon, healthInvalidSymbols, string.Empty);
                 var healthPoints = 0;
 
