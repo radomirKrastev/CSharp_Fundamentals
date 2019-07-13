@@ -24,9 +24,7 @@
 
                 var additionalCalculations = Regex.Matches(demon, @"[*\/]");
                 var negativeNumbers = Regex.Matches(demon, @"[-]\d+[\.]\d+|[-]\d+");
-                //var demonsNoNegative = Regex.Replace(demon, @"[-]\d[.]\d+|[-]\d+", string.Empty); 
-                var demonsNoNegative = Regex.Replace(demon, @"[-]\d+[\.]\d+|[-]\d+", string.Empty); 
-                //var positiveNumbers = Regex.Matches(demonsNoNegative, @"(?<![-0-9.])\d+[.\d]*");
+                var demonsNoNegative = Regex.Replace(demon, @"[-]\d+[\.]\d+|[-]\d+", string.Empty);
                 var positiveNumbers = Regex.Matches(demonsNoNegative, @"[+]?\d+[\.]*\d+|[+]?\d+");
 
                 var negativeNumbersTotal = 0.0m;
