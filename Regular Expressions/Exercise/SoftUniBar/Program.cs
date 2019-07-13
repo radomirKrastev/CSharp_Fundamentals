@@ -7,7 +7,7 @@
         public static void Main()
         {
             var input = Console.ReadLine();
-            var pattern = @"%(?<customer>[A-Z]{1}[a-z]{2,})%[^\$%|]*<(?<product>[A-Za-z]+)>[^\$%|]*[|](?<quantity>[1-9]+[0-9]*)[|][^\$%|\d-]*(?<price>[1-9]+[.0-9]*)[$]";
+            var pattern = @"%(?<customer>[A-Z]{1}[a-z]{2,})%[^\$%|]*<(?<product>\w+)>[^\$%|]*[|](?<quantity>[1-9]+[0-9]*)[|][^\$%|\d-]*(?<price>[1-9]+[.0-9]*)[$]";
             var orders = string.Empty;
             var totalIncome = 0.0;
 

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Furniture\Furniture.csproj", "{C5F9168D-AC68-4B96-9F5F-E107346419F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Furniture", "Furniture\Furniture.csproj", "{C5F9168D-AC68-4B96-9F5F-E107346419F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race", "Race\Race.csproj", "{64627268-F680-4A89-89B7-643BA3A89F4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Race", "Race\Race.csproj", "{64627268-F680-4A89-89B7-643BA3A89F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniBar", "SoftUniBar\SoftUniBar.csproj", "{FC480E38-F07B-40F4-9293-6E2B6584BE74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniBar", "SoftUniBar\SoftUniBar.csproj", "{FC480E38-F07B-40F4-9293-6E2B6584BE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarEnigma", "StarEnigma\StarEnigma.csproj", "{6994882A-AAE2-49BA-A896-24030305EDC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FC480E38-F07B-40F4-9293-6E2B6584BE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC480E38-F07B-40F4-9293-6E2B6584BE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC480E38-F07B-40F4-9293-6E2B6584BE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6994882A-AAE2-49BA-A896-24030305EDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6994882A-AAE2-49BA-A896-24030305EDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6994882A-AAE2-49BA-A896-24030305EDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6994882A-AAE2-49BA-A896-24030305EDC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
