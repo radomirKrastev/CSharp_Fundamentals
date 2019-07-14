@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinningTicket", "WinningTic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RageQuit", "RageQuit\RageQuit.csproj", "{6D4B9797-D934-4D83-955B-3A5A37760CFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostOffice", "PostOffice\PostOffice.csproj", "{1E01418E-7B0A-4C3C-BC3F-6C44585CC5EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6D4B9797-D934-4D83-955B-3A5A37760CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4B9797-D934-4D83-955B-3A5A37760CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4B9797-D934-4D83-955B-3A5A37760CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E01418E-7B0A-4C3C-BC3F-6C44585CC5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E01418E-7B0A-4C3C-BC3F-6C44585CC5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E01418E-7B0A-4C3C-BC3F-6C44585CC5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E01418E-7B0A-4C3C-BC3F-6C44585CC5EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
