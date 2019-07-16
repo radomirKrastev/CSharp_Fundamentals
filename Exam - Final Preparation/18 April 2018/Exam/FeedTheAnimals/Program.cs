@@ -70,7 +70,7 @@
             Console.WriteLine("Animals:");
             foreach (var animal in animalFood.OrderByDescending(x=>x.Value).ThenBy(x=>x.Key))
             {
-                Console.WriteLine(animal.Key+" -> "+animal.Value);
+                Console.WriteLine(animal.Key+" -> "+animal.Value+"g");
             }
 
             Console.WriteLine("Areas with hungry animals:");
