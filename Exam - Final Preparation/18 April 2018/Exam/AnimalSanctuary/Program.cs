@@ -7,7 +7,7 @@
         public static void Main()
         {
             var linesOfInput = int.Parse(Console.ReadLine());
-            var pattern = @"^n:(?<name>[^\;]+);t:(?<type>[^\;]+);c--(?<country>[A-Za-z\s]+[A-Za-z\s])$";
+            var pattern = @"^n:(?<name>[^\;]+);t:(?<type>[^\;]+);c--(?<country>[A-Za-z\s]+)$";
             var totalKilograms = 0;
 
             for (int i = 0; i < linesOfInput; i++)
