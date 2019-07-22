@@ -10,7 +10,7 @@
             var input = Console.ReadLine();
             var dwarfData = new Dictionary<string, Dictionary<string, int>>();
 
-            while(input!="Once upon a time")
+            while (input != "Once upon a time")
             {
                 var characteristics = input.Split(" <:> ");
                 var name = characteristics[0];
@@ -30,7 +30,7 @@
                         namePhysics = dwarfData[hatColor];
                         if (namePhysics.ContainsKey(name))
                         {
-                            
+
                             if (physics > namePhysics[name])
                             {
                                 dwarfData[hatColor].Remove(name);
@@ -41,13 +41,8 @@
                         else
                         {
                             namePhysics.Add(name, physics);
-                            dwarfData[hatColor]= namePhysics;
+                            dwarfData[hatColor] = namePhysics;
                         }
-                    }
-
-                    else
-                    {
-                        
                     }
                 }
 
@@ -62,14 +57,11 @@
                 {
                     dwarfs[kvp.Key + "->" + kvpValue.Key] = kvpValue.Value;
                 }
-
             }
-
-
 
             foreach (var kvp in dwarfs
                 .OrderByDescending(x => x.Value)
-                .ThenByDescending(x => dwarfs.Where(y=>y.Key.Split("->")[0]==x.Key.Split("->")[0]).Count()))
+                .ThenByDescending(x => dwarfs.Where(y => y.Key.Split("->")[0] == x.Key.Split("->")[0]).Count()))
 
             {
                 var name = kvp.Key.Split("->")[1];
@@ -77,12 +69,7 @@
                 var physics = kvp.Value;
 
                 Console.WriteLine($"({hat}) {name} <-> {physics}");
-
             }
-             
-
-    
-
         }
     }
 }
