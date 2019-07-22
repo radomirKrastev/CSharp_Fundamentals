@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulator", "String
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmojiSumator", "EmojiSumator\EmojiSumator.csproj", "{38C33B81-ED5B-418E-868E-286DE02A72D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeedTheAnimals", "FeedTheAnimals\FeedTheAnimals.csproj", "{0D1E6884-DC36-4456-989F-3B9D6B1E7885}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{38C33B81-ED5B-418E-868E-286DE02A72D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C33B81-ED5B-418E-868E-286DE02A72D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C33B81-ED5B-418E-868E-286DE02A72D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1E6884-DC36-4456-989F-3B9D6B1E7885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1E6884-DC36-4456-989F-3B9D6B1E7885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1E6884-DC36-4456-989F-3B9D6B1E7885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1E6884-DC36-4456-989F-3B9D6B1E7885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
