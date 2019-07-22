@@ -22,7 +22,7 @@
                 decodedEmoji += symbol.ToString();
             }
 
-            var emojiPattern = @"(?<=[ |\t])(?<emoji>[:][a-z]{4,}[:])(?=\[\t| |,|.|!|\?])";
+            var emojiPattern = @"((?<=[ |\t])(?<emoji>[:][a-z]{4,}[:])[\ |\t|!|?|.|,])";
 
             MatchCollection rawEmojis = Regex.Matches(message, emojiPattern);
             var validEmojis = new List<string>();
