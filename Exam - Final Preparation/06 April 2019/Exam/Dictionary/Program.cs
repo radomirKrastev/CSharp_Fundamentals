@@ -7,7 +7,7 @@ namespace Dictionary
     using System.Linq;
     public class Program
     {
-        static void Main()
+        public static void Main()
         {
             var wordsData = Console.ReadLine().Split(new string[] { " | " }, StringSplitOptions.RemoveEmptyEntries).ToList();
             var definitions = Console.ReadLine().Split(new string[] { " | " }, StringSplitOptions.RemoveEmptyEntries).ToList();
