@@ -8,7 +8,7 @@
         {
             var encodedMessage = Console.ReadLine();
             var keys = Console.ReadLine().Split();
-            var pattern = @"^[d-z\{\}\,\#\|]+";
+            var pattern = @"^[d-z\{\}\,\#\|]+$";
             var decodedMessage = string.Empty;
             var finalMessage = string.Empty;
 
