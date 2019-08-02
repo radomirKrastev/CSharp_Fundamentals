@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaporWinterSale", "VaporWinterSale\VaporWinterSale.csproj", "{8A5EC2E6-57B7-450A-8E27-10CA95095EA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivationKeys", "ActivationKeys\ActivationKeys.csproj", "{CD600122-3970-4642-83A2-A5973596B2CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8A5EC2E6-57B7-450A-8E27-10CA95095EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5EC2E6-57B7-450A-8E27-10CA95095EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5EC2E6-57B7-450A-8E27-10CA95095EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD600122-3970-4642-83A2-A5973596B2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD600122-3970-4642-83A2-A5973596B2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD600122-3970-4642-83A2-A5973596B2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD600122-3970-4642-83A2-A5973596B2CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
